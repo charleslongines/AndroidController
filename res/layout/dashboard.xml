@@ -1,0 +1,42 @@
+<com.thesis.androidcontroller.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+
+
+    	<Button
+        	android:id="@+id/btnLight"
+        	style="@style/DashboardButton"
+        	android:drawableTop="@drawable/lamp_icon"
+        	android:text="Light"
+        	android:textSize="13sp" />
+ 
+
+   		 <Button
+        	android:id="@+id/btnTv"
+        	style="@style/DashboardButton"
+        	android:drawableTop="@drawable/television_icon"
+        	android:text="Television"
+        	android:textSize="13sp" />
+   		 
+   		  <Button
+        	android:id="@+id/btnRadio"
+        	style="@style/DashboardButton"
+        	android:drawableTop="@drawable/radio_icon"
+        	android:text="Radio"
+        	android:textSize="13sp" />
+   		 
+   		 
+   		 <Button
+        	android:id="@+id/btnAircon"
+        	style="@style/DashboardButton"
+        	android:drawableTop="@drawable/airconditioner"
+        	android:text="Air Condition"
+        	android:textSize="13sp" />
+    
+    
+
+
+</com.thesis.androidcontroller.DashboardLayout>
